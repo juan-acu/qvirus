@@ -33,3 +33,5 @@ vl_diff <- function(vl_data){
   class(vl3_diff) <- c("Interaction", "data.frame")
   return(vl3_diff)
 }
+
+utils::globalVariables(c("vl_diff_values"))

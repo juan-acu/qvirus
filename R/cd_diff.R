@@ -32,3 +32,5 @@ cd_diff <- function(cd_data){
   class(cd3_diff) <- c("Interaction", "data.frame")
   return(cd3_diff)
 }
+
+utils::globalVariables(c("cd_diff_values"))
