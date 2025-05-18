@@ -1,2 +1,22 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # qvirus
-Quantum Computing for Analyzing CD4 Lymphocytes and Antiretroviral Therapy
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of qvirus is to provide resources, tutorials, and code snippets
+dedicated to exploring the intersection of quantum computing and
+artificial intelligence (AI) in the context of HIV drug design.
+
+## Installation
+
+You can install the development version of qvirus from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("juan-acu/qvirus")
+```
