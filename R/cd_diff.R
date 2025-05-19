@@ -6,7 +6,7 @@
 #'
 #' @return An object of class `"Interaction"` with the following components:
 #' \describe{
-#'   \item{cd_diff}{Mean differences of raw CD4 count values.}
+#'   \item{cd3_diff}{Mean differences of raw CD4 count values.}
 #' }
 #' 
 #' @export

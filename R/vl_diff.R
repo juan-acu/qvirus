@@ -6,7 +6,7 @@
 #'
 #' @return An object of class `"Interaction"` with the following components:
 #' \describe{
-#'   \item{vl_diff}{Mean differences of raw viral load values.}
+#'   \item{vl3_diff}{Mean differences of raw viral load values.}
 #' }
 #'
 #' @export
