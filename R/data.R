@@ -149,3 +149,16 @@
 #'
 #' @source Clinical data from Hospital Vicente Guerrero, IMSS, HIV Clinic.
 "preds"
+
+
+#' Batched Predictions for Longitudinal Viral Load Values for HIV Patients (2018-2024)
+#'
+#' @description Contains batched predictions of longitudinal viral load values for 176 
+#' patients from 2018 to 2024. 
+#'
+#' @examples
+#' data(preds2)
+#' head(preds2)
+#'
+#' @source Clinical data from Hospital Vicente Guerrero, IMSS, HIV Clinic.
+"preds2"
