@@ -136,3 +136,16 @@
 #' data(qphen)
 #' head(qphen)
 "qphen"
+
+
+#' Predictions for Longitudinal Viral Load Values for HIV Patients (2018-2024)
+#'
+#' @description Contains predictions of longitudinal viral load values for 176 
+#' patients from 2018 to 2024. 
+#'
+#' @examples
+#' data(preds)
+#' head(preds)
+#'
+#' @source Clinical data from Hospital Vicente Guerrero, IMSS, HIV Clinic.
+"preds"
