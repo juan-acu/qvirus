@@ -2,6 +2,7 @@
 
 S3method(mse,InteractionClassification)
 S3method(summary,InteractionClassification)
+S3method(summary,payoffs)
 export(InteractionClassification)
 export(cd_diff)
 export(cds_diff)
