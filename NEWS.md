@@ -7,4 +7,7 @@
 
 ### InteractionClassification
 - Added new functionalities to the `InteractionClassification` class.
+
+### Quantum game of phenotypes
+- Added new fubnctionalities to design and simulate quantum games of HIV phenotypes
   
