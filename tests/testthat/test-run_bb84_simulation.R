@@ -14,4 +14,4 @@ test_that("run_bb84_simulation() returns expected structure", {
   testthat::expect_true(result$Final_Key_Length <= result$Sifted_Length)
   testthat::expect_true(result$QBER >= 0)
   testthat::expect_true(result$QBER <= 1)
-# })
+ })
