@@ -9,14 +9,14 @@
 #' destroyed, simulating an attack that forces the system toward the classical limit
 #' where \eqn{|S| \leq 2}. Default is \code{FALSE}.
 #' @param key_length Integer. Number of simulated EPR pairs (default = 1000).
-#' @param noise_level Numeric. Noise level (0–1) applied when
+#' @param noise_level Numeric. Noise level (0-1) applied when
 #' \code{eavesdropping_active = TRUE}, reducing quantum correlation.
 #' A value of 0.5 represents partial decoherence. Default is 0.5.
 #'
 #' @return A list of class \code{"E91Simulation"} containing:
 #' \describe{
 #'   \item{\code{S_Calculated}}{Observed Bell CHSH statistic.}
-#'   \item{\code{S_Theoretical}}{Quantum theoretical value (≈ -2.8284).}
+#'   \item{\code{S_Theoretical}}{Quantum theoretical value (\eqn{\approx} -2.8284).}
 #'   \item{\code{Bell_Violation}}{\code{TRUE} if \eqn{|S| > 2} (secure),
 #'   \code{FALSE} if \eqn{|S| \leq 2} (insecure).}
 #'   \item{\code{Sifted_Key_Length}}{Number of bits retained for key formation.}
