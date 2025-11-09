@@ -58,7 +58,7 @@
 #' cat(paste("Quantum Bit Error Rate (QBER):", round(results_with_eve$QBER * 100, 2), "%\n"))
 #'
 #' if (results_with_eve$QBER > 0.15) {
-#'   cat("🚨 High QBER detected. Eavesdropping likely — key discarded.\n")
+#'   cat("High QBER detected. Eavesdropping likely — key discarded.\n")
 #' } else {
 #'   cat("No eavesdropping detected (unlikely in theory).\n")
 #' }
