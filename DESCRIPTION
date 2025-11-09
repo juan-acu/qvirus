@@ -1,6 +1,6 @@
 Package: qvirus
 Title: Quantum Computing for Analyzing CD4 Lymphocytes and Antiretroviral Therapy
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: 
     person("Juan Pablo", "Acuña González", , "22253567@uagro.mx", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0003-6029-6560"))
