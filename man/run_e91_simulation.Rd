@@ -11,31 +11,32 @@ run_e91_simulation(
 )
 }
 \arguments{
-\item{eavesdropping_active}{Logical. Si \code{TRUE}, el entrelazamiento es
-parcialmente destruido, simulando un ataque que fuerza el comportamiento del
-sistema hacia el límite clásico, donde $|S| \le 2$. Default es \code{FALSE}.}
+\item{eavesdropping_active}{Logical. If \code{TRUE}, the entanglement is partially
+destroyed, simulating an attack that forces the system toward the classical limit
+where \eqn{|S| \leq 2}. Default is \code{FALSE}.}
 
-\item{key_length}{Integer. Número de pares EPR simulados. El default es 1000.}
+\item{key_length}{Integer. Number of simulated EPR pairs (default = 1000).}
 
-\item{noise_level}{Numeric. Nivel de ruido simulado (entre 0 y 1) si
-'eavesdropping_active' es TRUE, afectando la correlación cuántica.
-Un valor de 0.5 rompe parcialmente el entrelazamiento. Default es 0.5.}
+\item{noise_level}{Numeric. Noise level (0–1) applied when
+\code{eavesdropping_active = TRUE}, reducing quantum correlation.
+A value of 0.5 represents partial decoherence. Default is 0.5.}
 }
 \value{
-Una lista de clase \code{"E91Simulation"} conteniendo:
+A list of class \code{"E91Simulation"} containing:
 \describe{
-\item{\code{S_Calculated}}{Valor observado de la Estadística de Bell (S_CHSH).}
-\item{\code{S_Theoretical}}{Valor cuántico teórico esperado (aproximadamente -2.8284).}
-\item{\code{Bell_Violation}}{Logical. \code{TRUE} si $|S| > 2$ (seguro), \code{FALSE} si $|S| \le 2$ (inseguro).}
-\item{\code{Sifted_Key_Length}}{Número de bits retenidos para formar la clave después del tamizado (correlación perfecta).}
-\item{\code{Eavesdropping}}{Flag que indica si el ataque fue simulado.}
+\item{\code{S_Calculated}}{Observed Bell CHSH statistic.}
+\item{\code{S_Theoretical}}{Quantum theoretical value (≈ -2.8284).}
+\item{\code{Bell_Violation}}{\code{TRUE} if \eqn{|S| > 2} (secure),
+\code{FALSE} if \eqn{|S| \leq 2} (insecure).}
+\item{\code{Sifted_Key_Length}}{Number of bits retained for key formation.}
+\item{\code{Eavesdropping}}{Indicates if an attack was simulated.}
 }
 }
 \description{
-Simula el protocolo E91 (Ekert 1991), el cual utiliza pares de partículas entrelazadas (EPR)
-y el Teorema de Bell (Estadística CHSH) para garantizar la seguridad de la clave.
-La seguridad se establece al verificar la \strong{Violación de la Desigualdad de Bell},
-donde un valor $|S| > 2$ indica que el canal es seguro (comportamiento cuántico).
+Simulates the E91 (Ekert 1991) quantum key distribution protocol using entangled
+particle pairs (EPR) and Bell’s theorem (CHSH statistic) to ensure channel security.
+Security is established when the \strong{Bell Inequality is violated}, i.e.
+when \eqn{|S| > 2}, indicating quantum behavior.
 }
 \details{
 El E91 se diferencia de BB84 en que la detección del espía es \strong{simultánea} a la generación

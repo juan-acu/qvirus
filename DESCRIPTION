@@ -18,6 +18,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     dplyr,
-    magrittr
+    magrittr,
+    stats
 URL: https://github.com/juan-acu/qvirus
 BugReports: https://github.com/juan-acu/qvirus/issues
