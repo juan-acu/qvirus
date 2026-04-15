@@ -1,3 +1,15 @@
+# qvirus 0.0.6
+
+## New features
+
+### Data and Quantum Encoding
+Added curated datasets that support reproducible workflows for quantum state preparation
+and Hamiltonian construction in immunometabolic modeling:
+  - data_enc: biomarker panel for 3-qubit angle encoding.
+  - data_corr: biomarker pool for Hamiltonian correlation structure.
+
+
+
 # qvirus 0.0.5
 
 ## New features
