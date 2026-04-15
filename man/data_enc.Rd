@@ -7,12 +7,12 @@
 \format{
 A data frame with 12 rows and 6 variables:
 \describe{
-\item{CD14}{Expression level of CD14 (innate immune receptor; φ2 angle).}
-\item{HADH}{Expression level of HADH (beta-oxidation marker; θ3 angle).}
-\item{IDO1}{Expression level of IDO1 (tryptophan metabolism; φ1 angle).}
-\item{IL6}{Expression level of IL6 (inflammatory signaling; θ1 angle).}
-\item{LDHB}{Expression level of LDHB (glycolytic flux; φ3 angle).}
-\item{TDO2}{Expression level of TDO2 (systemic metabolic repression; θ2 angle).}
+\item{CD14}{Expression level of CD14 (innate immune receptor; phi2 angle).}
+\item{HADH}{Expression level of HADH (beta-oxidation marker; theta3 angle).}
+\item{IDO1}{Expression level of IDO1 (tryptophan metabolism; phi1 angle).}
+\item{IL6}{Expression level of IL6 (inflammatory signaling; theta1 angle).}
+\item{LDHB}{Expression level of LDHB (glycolytic flux; phi3 angle).}
+\item{TDO2}{Expression level of TDO2 (systemic metabolic repression; theta2 angle).}
 }
 }
 \usage{
